@@ -20,7 +20,9 @@ let data = {
   github: chalk.cyan("https://github.com/intabulas"),
   linkedin: chalk.cyan("https://linkedin.com/in/intabulas"),
   web: chalk.cyan("http://lushvino.com"),
+  email: chalk.cyan("mlussier@intabulas.com"),
   npx: chalk.white("npx intabulas"),
+  labelEmail: chalk.white.bold("     Email:"),
   labelWork: chalk.white.bold("      Work:"),
   labelTwitter: chalk.white.bold("   Twitter:"),
   labelGitHub: chalk.white.bold("    GitHub:"),
@@ -33,6 +35,7 @@ let data = {
 var newline = "\n";
 var heading = `${data.name} ${data.handle}`;
 var working = `${data.labelWork}  ${data.work}`;
+var email = `${data.labelEmail}  ${data.email}`;
 var twittering = `${data.labelTwitter}  ${data.twitter}`;
 var githubing = `${data.labelGitHub}  ${data.github}`;
 var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
@@ -45,6 +48,8 @@ let output =
   newline +
   newline +
   working +
+  newline +
+  email +
   newline +
   twittering +
   newline +
