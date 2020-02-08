@@ -17,9 +17,9 @@
   "author": "Mark Lussier <mark@intaabulas.com>",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^4.1.0",
+    "boxen": "^4.2.0",
     "chalk": "^3.0.0",
-    "commander": "^4.0.1"
+    "commander": "^4.1.1"
   },
   "devDependencies": {
     "standard": "^14.3.1"
